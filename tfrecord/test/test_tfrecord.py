@@ -1,5 +1,5 @@
 import pytest
-from tfrecord.tfrecord import (
+from tfrecord import (
     Writer, Reader,
     pack_int64_list, unpack_int64_list,
     pack_float_list, unpack_float_list,
